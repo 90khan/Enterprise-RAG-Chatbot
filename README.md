@@ -1,13 +1,13 @@
-# 📝 Notion Chatbot
+# 📝 Enterprise RAG Chatbot
 
-This project is a **Notion Chatbot** built using **LangChain**, **OpenAI**, **FAISS**, and **Streamlit**.  
+This project is a **Enterprise RAG Chatbot** built using **LangChain**, **OpenAI**, **FAISS**, and **Streamlit**.  
 It allows you to chat with your Notion content by converting it into vector embeddings and building a retrieval-based conversational agent.
 
 ---
 
 ## ✨ Features
 
-* Convert Notion content into vectors using the **OpenAI embedding model**.  
+* Convert Enterprise content into vectors using the **OpenAI embedding model**.  
 * Store vectors in a **FAISS index** for fast similarity search.  
 * Build a **Conversation Retrieval Chain** using LangChain, with custom prompts and memory.  
 * Deploy an interactive **Streamlit chat app** with the latest chat features.  
@@ -50,7 +50,7 @@ Open your browser at [http://localhost:8501](http://localhost:8501)
 
 ## 🤖 How it works
 
-1. Extract content from Notion.
+1. Extract content from Enterprise.
 2. Convert content to vector embeddings using OpenAI.
 3. Store embeddings in a FAISS index for fast retrieval.
 4. Build a LangChain Conversation Retrieval Chain with memory and custom prompts.
